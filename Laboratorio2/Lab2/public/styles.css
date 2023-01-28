@@ -1,0 +1,62 @@
+body{
+    /* background-color: brown; */
+}
+ul {
+    /* list-style-type: square; */
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #ac1d81;
+    margin: 0;
+    
+}
+
+ul li{
+float: left;
+
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: wheat;
+}
+
+li a:hover{
+    background-color: aqua;
+    /* text-decoration: underline; */
+    color: white;
+}
+
+li a:active{
+    text-decoration: underline;
+    /* efecto de precionar li a:active*/
+}
+
+li a:visited{
+    color: #18e718;
+}
+
+li:last-child{
+    margin-left: 50px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* # para elegir uno en especifico */
+
+div{
+    /* #Se jodiio*/
+    width: 20%;
+    margin: 20px;
+    border: 2px solid black;
+    height: 30%;
+    display: black;
+    float: left
+}
+#p1{
+    background-color: rgb(236, 233, 23);
+    width: 30%;
+    height: 20px;
+
+}
